@@ -1,0 +1,147 @@
+@media screen and (max-width:650px) {
+	.desk-banner{
+	  display:none !important;
+	}
+	.mob-banner{
+	  display: inline !important;
+	}
+	.feature-content h2{
+	  font-size:26px
+	}
+  .posters{
+    margin-top: 20px;
+  }
+  }
+  @media screen and (min-width:651px) {
+	.desk-banner{
+	  display:inline !important;
+	}
+	.mob-banner{
+	  display: none !important;
+	}
+	.feature-content h2{
+	  font-size:35px
+	}
+  .testimonial-block{
+    background:#F4EEE6; border-radius:20px;margin-left:-150px;
+  }
+  }
+  
+  
+  .separation {
+	  margin-top: 100px;
+  }
+  
+  .holder:hover .btn
+  {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  background-color: Black;
+	  margin-top: -150px;
+	  font-size:20px;
+	  font-weight: bold;
+	  pointer-events: none;
+  }
+  .containers:hover>.button {
+	  display: block;
+	}
+  
+  .convern-img{
+    max-width: 250px;
+    margin: auto;
+    width:100%;
+  }
+  
+
+/********Nature's Mistry */
+  
+.features .even-order, .features .odd-order {
+    align-items: center;
+}
+
+.features .feature-img {
+    max-width: 500px;
+}
+
+.features .feature-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 1140px){
+.features .horizontal {
+    width: 50px;
+    height: 1.3px;
+    background-color: #444;
+    margin: 0 auto;
+}
+.features .feature-content {
+    padding: 15px;
+    flex-basis: 45%;
+}
+
+.features .even-order, .features .odd-order {
+    align-items: center;
+}
+.features .even-order {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.features .even-order .feature-img {
+    order: 2;
+}
+
+.features .even-order .feature-content h1, .features .even-order .feature-content h2, .features .even-order .feature-content p {
+    text-align: right;
+}
+
+.features .even-order .horizontal {
+    order: 1;
+}
+}
+.features .feature-content h1 {
+    font-size: 100px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.features .feature-content h2 {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+.features .feature-content p {
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+.nature{
+    max-width: 400px;
+    position: absolute;
+    right: 0;
+    margin-top: -130px;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.leaf-design {
+    margin-right: -70px;
+    margin-top: -5px;
+}
+
+
+
+.Testimonial-font {
+   font-size: 20px;
+   color: black;
+}
+
+
+
+
